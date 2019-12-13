@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="zh-tw">
   <head>
     <title>Andrea - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
@@ -27,20 +27,20 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	  <!--
+	<script src="js/jquery.nicescroll.js"></script>
+-->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-	  
-	  <script>
-  
-  $(document).ready(function() {
-  
-	var nice = $("html").niceScroll();  // The document page (body)
-    
-    $("#colorlib-aside").niceScroll({cursorborder:"",cursorcolor:"#00F",boxzoom:true}); // First scrollable DIV
-  });
+	<script src="js/jquery.nicescroll.iframehelper.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript">
+  	$(document).ready(function() {
+	var nice = $("html").niceScroll();
+    $("#colorlib-page").niceScroll({cursorborder:"",cursorcolor:"#00F",boxzoom:true}); 
+    $("#rowcolorlib-aside").niceScroll("#contentscroll2",{cursorcolor:"#F00",cursoropacitymax:0.7,boxzoom:true,touchbehavior:true});
+  	});
 
-	  </script>
-	  
+    </script>
   </head>
   <body>
 
@@ -50,7 +50,7 @@
 			<nav id="colorlib-main-menu" role="navigation">
 		
 					<div class="rowcolorlib-aside">
-						
+					
             <!-- 照片組1 -->
 						
             <div class="col">
