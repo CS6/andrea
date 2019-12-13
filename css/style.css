@@ -9288,7 +9288,7 @@ textarea.form-control {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #B8B8B8;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 1rem;
@@ -9306,14 +9306,23 @@ textarea.form-control {
 }
 
 .card-text{
-	margin-left: 110px;
+	margin-left: 100px;
 	margin-bottom: 10px;
-	border-radius: 2rem;
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-	
+	border-radius: 0.9rem;
+    color: #4a4a4a;
+    background-color: #ededed;
+    border-color: #ededed;
+	cursor:pointer;
 }
+.card-title-text{
+	font-size: 14pt;
+	color: #ffffff;
+}
+.card-title-wrap{
+	font-size: 5.72pt;
+	color : #fffff;
+}
+
 .pic-hover {
     padding-top: 45px;
     position: absolute;
