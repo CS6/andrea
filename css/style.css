@@ -9360,14 +9360,13 @@ element.style {
 
 .bunnyword 
 {
-	color:#ffffff;
+	color:#D6D6D6;
 	text-align: left;
 	font-size: 11pt;
 	line-height: 25px;
 	/*letter-spacing: 1px;*/
 }
 .bunnyword span{
-	color: #ffffff;
 	font-size: 19pt;
 	
 }
