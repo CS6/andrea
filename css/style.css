@@ -8154,7 +8154,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 5em;
+  padding-top: 1rem;
   padding-bottom: 40px;
   padding-left: 2em;
   padding-right: 2em;
@@ -8167,7 +8167,7 @@ h1, h2, h3, h4, h5,
   overflow-y: scroll;
   overflow-x: hidden;
   z-index: 1001;
-  background: #fff;
+  background: #49494b;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -9331,4 +9331,43 @@ textarea.form-control {
 element.style {
     overflow: hidden;
     outline: none;
+}
+
+.bunnylogo {
+	padding-top: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
+	width: 200px;
+	height: auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 1rem;
+}
+
+.bunnylogo img{
+	padding-top: 11px;
+	width: 100%;
+}
+
+.bunnyword 
+{
+	color:#ffffff;
+	text-align: left;
+	font-size: 11pt;
+	line-height: 25px;
+	/*letter-spacing: 1px;*/
+}
+.bunnyword span{
+	color: #ffffff;
+	font-size: 19pt;
+	
 }
