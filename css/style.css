@@ -8344,7 +8344,7 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; 
-  background: #49494b;
+  /*background: #49494b;*/
 }
   
   @media (min-width: 992px) {
