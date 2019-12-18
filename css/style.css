@@ -9397,8 +9397,10 @@ element.style {
 }
 /*middel section user CSS*/
 #colorlib-main {
-  background-image: url("../images/tripod_bgt.png");
+  background-image: url("../images/tripod_bg.png");
+  background-repeat:no-repeat;
   background-position: center;
+  background-size: 20%;
   background-color: #f4f4f4;
   background-attachment: fixed;
 }
