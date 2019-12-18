@@ -9310,11 +9310,12 @@ textarea.form-control {
 }
 
 .card-text{
-	margin-left: 100px;
+	margin-left: 50%;
 	margin-bottom: 25px;
 	border-radius: 0.5rem;
     color: #4a4a4a;
 	line-height: 20px;
+	width: 100px;
     background-color: #ededed;
     border-color: #ededed;
 	cursor:pointer;
