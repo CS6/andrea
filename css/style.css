@@ -9395,3 +9395,9 @@ element.style {
 	font-weight: bold;
 	
 }
+/*middel section user CSS*/
+#colorlib-main {
+  background-image: url("../images/tripod_bgt.png");
+  background-repeat:no-repeat;
+  background-color: #f4f4f4;
+}
