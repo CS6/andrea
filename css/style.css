@@ -8121,7 +8121,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 320px;
-      background: #fff;
+      background: #49494b;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
