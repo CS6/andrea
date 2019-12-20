@@ -9397,10 +9397,26 @@ element.style {
 }
 /*middel section user CSS*/
 #colorlib-main {
-  background-image: url("../images/tripod_bg.png");
   background-repeat:no-repeat;
   background-position: center;
-  background-size: 20%;
-  background-color: #f4f4f4;
+  background-size: 100%;
+  background-color: #f5f5f5;
   background-attachment: fixed;
 }
+.droneBG{
+	background-image: url("../images/drone_bg.png");
+}
+.cameraBG{
+	background-image: url("../images/camara_bg.png");
+}
+.tripodBG{
+	background-image: url("../images/tripod_bg.png");
+}
+.vrBG{
+	background-image: url("../images/vr_bg.png");
+}
+.padBG{
+	background-image: url("../images/pad_bg.png");
+}
+
+
