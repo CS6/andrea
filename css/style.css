@@ -13376,6 +13376,14 @@ textarea.form-control {
   cursor: pointer;
 }
 
+.lenddays{
+  color:green;
+}
+
+.lendday{
+  color:red;
+}
+
 .card-title-text {
   margin-top: 25px;
   margin-left: 18px;
@@ -13458,12 +13466,13 @@ element.style {
 }
 
 /*background CSS*/
-#colorlib-main {
+body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   background-color: #f5f5f5;
   background-attachment: fixed;
+  
 }
 
 .droneBG {
@@ -13544,13 +13553,16 @@ element.style {
 }
 
 .picon {
-  width: 40%;
-  margin-left: 30%;
+  width: 50%;
+  margin-left: 25%;
   margin-bottom: 10%;
 }
 
 .main-card-info {
+  font-size: 12px;;
+  line-height: 15px;
   text-align: center;
+  margin-bottom: 4%;
 }
 
 .main-card:hover {
