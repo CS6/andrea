@@ -11728,6 +11728,7 @@ a:focus {
   text-decoration: none;
   color: #1eafed;
   outline: none !important;
+  transition: all 0.3s ease;
 }
 
 h1,
@@ -11763,7 +11764,7 @@ h5,
   top: 0;
   left: 0;
   right: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
   z-index: 1001;
   background: #49494b;
@@ -12523,11 +12524,6 @@ textarea.form-control {
   height: inherit !important;
 }
 
-.ftco-animate {
-  opacity: 0;
-  visibility: hidden;
-}
-
 .about-author img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -13252,11 +13248,10 @@ textarea.form-control {
 }
 
 #ftco-loader.show {
-  -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
-  -o-transition: opacity .4s ease-out, visibility 0s linear 0s;
-  transition: opacity .4s ease-out, visibility 0s linear 0s;
-  visibility: visible;
-  opacity: 1;
+  visibility: hidden;
+  -webkit-transition: opacity 1.4s ease-out, visibility 0s linear 0s;
+  -o-transition: opacity 1.4s ease-out, visibility 0s linear 0s;
+  transition: opacity 1.4s ease-out, visibility 0s linear 0s;
 }
 
 #ftco-loader .circular {
@@ -13407,12 +13402,13 @@ textarea.form-control {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #070505;
+  border-radius: 1rem;
   top: 0;
   left: 0;
+  font-size: 24px;
   text-align: center;
-  opacity: 0;
   visibility: hidden;
+  transition: all 0.3s ease;
 }
 
 .card-info {
@@ -13560,8 +13556,31 @@ body {
 }
 
 .main-card:hover {
-  visibility: visible;
   background-color: #C3C3C3;
   color: aliceblue;
   transition: all 0.3s ease;
+}
+
+.main-card:hover .pic-hover {
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+
+/*animation*/
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.ftco-animate {
+  animation: 0.5s ease-in-out 0s 1 fadeInUp;
 }
