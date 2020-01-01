@@ -13503,6 +13503,10 @@ body {
   background-image: url("../images/digiboard_bg.png");
 }
 
+.arduinoBG{
+  background-image: url("../images/arduino_bg.png");
+}
+
 /*Main Page CSS*/
 .welcome {
   margin-top: 10%;
@@ -13583,4 +13587,28 @@ body {
 }
 .ftco-animate {
   animation: 0.5s ease-in-out 0s 1 fadeInUp;
+}
+
+.bunny-info{
+  width: auto;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  transition: all 0.3s ease;
+}
+.info-word{
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.bunny-info:hover .info-word{
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+.bunny-info img{
+  float: right;
+  width: 100%;
 }
